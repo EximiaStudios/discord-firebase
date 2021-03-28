@@ -1,7 +1,5 @@
-const config = require("../config");
-var admin = require("firebase-admin");
-
 const { serviceAccount, databaseURL, databaseUID, storageBucket } = require("../config");
+var admin = require("firebase-admin");
 
 module.exports = (client) => {
   admin.initializeApp({
