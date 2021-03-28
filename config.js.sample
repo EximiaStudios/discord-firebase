@@ -1,0 +1,6 @@
+module.exports = {
+  serviceAccount: <JSON_OBJECT>,
+  databaseURL: "https://<DATABASE_NAME>.firebaseio.com",
+  databaseUID: "<RULES UID>",
+  storageBucket: "<BUCKET_NAME>.appspot.com",
+};
